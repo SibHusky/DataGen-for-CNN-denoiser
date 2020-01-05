@@ -1,6 +1,10 @@
-# Removing watermarks with a CNN, Denoiser1 Jupyter Notebook
+# Removing black bars with a CNN
 
-The Jupyter Notebook "Denoiser1" shows a simple CNN build with Pytorch. For the training the CNN needs watermarked images and the corresponding clean images. Therefore a second Jupyter Notebook ("data4denoiser") is available. This one takes a mp4 file and a watermark picture and out of that the watermarked and the clean images are taken. 
+|      Epoch 0          | Epoch 1       |Epoch 2        |Epoch 3        |Epoch 4        |
+|:--------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|![damaged_image](https://github.com/SibHusky/simple_CNN_watermark_denoiser/blob/master/data_model%231/valid_pic_10percent_%231_0_damaged.png)    | ![damaged_image](https://github.com/SibHusky/simple_CNN_watermark_denoiser/blob/master/data_model%231/valid_pic_10percent_%231_1.png)  | ![damaged_image](https://github.com/SibHusky/simple_CNN_watermark_denoiser/blob/master/data_model%231/valid_pic_10percent_%231_2.png)  | ![damaged_image](https://github.com/SibHusky/simple_CNN_watermark_denoiser/blob/master/data_model%231/valid_pic_10percent_%231_3.png)  | ![damaged_image](https://github.com/SibHusky/simple_CNN_watermark_denoiser/blob/master/data_model%231/valid_pic_10percent_%231_4.png)  |
+
+The Jupyter Notebook "Denoiser#1" shows a simple CNN build with Pytorch. For the training the CNN needs 'damaged' images and the corresponding clean images. Therefore a second Jupyter Notebook ("data4denoiser") is available. This one takes a mp4 file and a watermark picture and out of that the watermarked and the clean images are taken. 
 
 ## Usage
 
